@@ -14,8 +14,7 @@ body {
 
 .container {
     font-family: 'Be Vietnam', sans-serif;
-    margin-top: 5%;
-    padding: 15px 30px;
+    margin-top: 8%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,7 +23,7 @@ body {
 .wrapper {
     height: 100%;
     width: 100%;
-    max-width: 680px;
+    max-width: 768px;
 }
 
 .avatar, .avatar h3 {
@@ -35,14 +34,15 @@ body {
 }
 
 img {
-    width: 96px;
-    height: 96px;
+    width: 20%;
+    height: 20%;
     border-radius: 50%;
+    border: 3px #2C041A;
 }
 
 ul {
     height: 100%;
-    width: 100;
+    width: 100%;
    margin: 0;
     padding: 0;
 }
@@ -55,7 +55,7 @@ ul li {
     align-items: center;
     border: 3px solid #fff;
     border-radius: 30px;
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 ul li a{
