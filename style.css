@@ -1,0 +1,61 @@
+body {
+    background: rgb(77,13,30);
+    background: linear-gradient(0deg, rgba(77,13,30,1) 9%, rgba(204,150,188,1) 49%, rgba(251,218,235,1) 72%, rgba(255,255,255,1) 91%);
+    color: #551a8b;
+    display: flex;
+    flex-direction: column;
+   height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    font-family: 'Be Vietnam', sans-serif;
+    margin-top: 5%;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    max-width: 680px;
+}
+
+.avatar, .avatar h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+}
+
+ul {
+    height: 100%;
+    width: 100;
+   margin: 0;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.5em;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+ul li a{
+    margin: auto;
+    padding: 10px 0;
+    text-decoration: none;
+}
