@@ -1,7 +1,11 @@
+*{
+    color: #2C041A;
+}
+
 body {
     background: rgb(77,13,30);
-    background: linear-gradient(0deg, rgba(77,13,30,1) 9%, rgba(204,150,188,1) 49%, rgba(251,218,235,1) 72%, rgba(255,255,255,1) 91%);
-    color: #551a8b;
+    background: linear-gradient(5deg, rgba(77,13,30,1) 9%, rgba(204,150,188,1) 49%, rgba(251,218,235,1) 72%, rgba(255,255,255,1) 91%);
+    color: #2C041A;
     display: flex;
     flex-direction: column;
    height: 100vh;
