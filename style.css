@@ -1,65 +1,49 @@
-*{
-    color: #2C041A;
-}
-
 body {
     background: rgb(77,13,30);
     background: linear-gradient(5deg, rgba(77,13,30,1) 9%, rgba(204,150,188,1) 49%, rgba(251,218,235,1) 72%, rgba(255,255,255,1) 91%);
     color: #2C041A;
-    display: flex;
-    flex-direction: column;
+    font-family: 'Be Vietnam', sans-serif;
    height: 100vh;
-    overflow: hidden;
 }
 
 .container {
-    font-family: 'Be Vietnam', sans-serif;
-    margin-top: 8%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.wrapper {
-    height: 100%;
-    width: 100%;
-    max-width: 768px;
-}
-
-.avatar, .avatar h3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 50px auto;
+    text-align: center;
 }
 
 img {
-    width: 20%;
-    height: 20%;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    border: 3px #2C041A;
+    margin: 0 auto;
 }
 
-ul {
-    height: 100%;
-    width: 100%;
-   margin: 0;
-    padding: 0;
+.links {
+    margin: 0 20px;
 }
 
-ul li {
-    font-size: 1.5em;
-    list-style-type: none;
+.links a {
+    color: #2C041A;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     border: 3px solid #fff;
     border-radius: 30px;
-    margin: 40px 0;
-}
-
-ul li a{
-    margin: auto;
+    margin: 20px 0;
     padding: 10px 0;
     text-decoration: none;
+}
+
+.links a:hover {
+    background-color: #fbdaeb;
+}
+
+.outro p {
+    color: #fff;
+}
+
+.outro a {
+    display: flex;
+    flex-flow: row wrap;
 }
